@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# pnpm
+pnpm-lock.yaml
+
+# Misc
+.env
+.env.*
+
+# C++ build
+*.o
+*.out
+*.exe
+
+# Coverage
+coverage/
+
+# Yarn
+.yarn/
+
+# Others
+*.swp
