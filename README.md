@@ -42,6 +42,7 @@ aegis-ota/
 - **Git** for version control
 - (Optional) **Arduino CLI** or **ESP-IDF** for firmware development
 
+
 ## Quick Start
 
 ### Installation & Usage
@@ -62,6 +63,18 @@ The application will launch and:
 3. Begin discovering and managing your ESP32 devices!
 
 For detailed usage instructions, refer to the [User Guide](#user-guide).
+
+### Development
+
+To run the dashboard (Vite app) for development:
+
+```bash
+pnpm --filter dashboard run dev
+```
+
+This will start the Vite development server for the dashboard app. Open your browser to [http://localhost:5173](http://localhost:5173) to view the dashboard.
+
+You can also run backend and other packages similarly using pnpm workspace filters.
 
 ## The Aegis Protocol
 
